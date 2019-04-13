@@ -100,7 +100,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 50000
+            timeoutInMilliseconds: 120000
 #          strategy: SEMAPHORE
 
 eureka:
